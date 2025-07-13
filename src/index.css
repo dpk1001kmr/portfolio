@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
+::selection {
+  background: #f5df4e;
+  color: #fff;
+}
+
+.bg-yellow {
+  background-color: #f5df4e !important;
+}
+
+.text-yellow {
+  color: #f5df4e !important;
+}
