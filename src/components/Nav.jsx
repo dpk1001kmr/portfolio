@@ -85,7 +85,7 @@ const Nav = () => {
                 <a
                   href="https://github.com/dpk1001kmr"
                   target="_blank"
-                  className="text-dark fs-3"
+                  className="nav-social-link-icon text-dark fs-3"
                 >
                   <FaGithubAlt />
                 </a>
@@ -93,7 +93,7 @@ const Nav = () => {
                 <a
                   href="https://linkedin.com/in/deepak-kumar-506410349/"
                   target="_blank"
-                  className="text-dark fs-4"
+                  className="nav-social-link-icon text-dark fs-4"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -171,6 +171,14 @@ const NavWrapper = styled.div`
   }
 
   .custom-nav-link-active {
+    color: #f5df4e !important;
+  }
+
+  .nav-social-link-icon {
+    transition: color 0.3s;
+  }
+
+  .nav-social-link-icon:hover {
     color: #f5df4e !important;
   }
 
