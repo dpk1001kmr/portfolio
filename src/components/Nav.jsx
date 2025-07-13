@@ -21,7 +21,7 @@ const navItems = [
 
 const Nav = () => {
   const [activeLink, setActiveLink] = useState("hero");
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
 
   useEffect(() => {
     // Set home as default active on first load
