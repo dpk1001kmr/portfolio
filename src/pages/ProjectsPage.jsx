@@ -42,7 +42,7 @@ const ProjectsPage = () => {
                   </p>
                   <p className="mb-1 text-secondary">
                     <a
-                      href="https://lpcreatortool2-jy7691bhu-deepak-kumars-projects-3b4205b0.vercel.app/"
+                      href="https://lpcreatortool2.vercel.app/"
                       target="_blank"
                       className="badge bg-yellow text-dark text-decoration-none"
                     >
