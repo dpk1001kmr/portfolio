@@ -164,6 +164,7 @@ const NavWrapper = styled.div`
     font-size: 1rem;
     font-weight: 600;
     transition: color 0.3s;
+    cursor: pointer;
   }
 
   .custom-nav-link:hover {
