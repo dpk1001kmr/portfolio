@@ -2,6 +2,21 @@ import styled from "styled-components";
 
 import { FaCircle } from "react-icons/fa";
 
+const skillsList = [
+  "HTML5",
+  "CSS3",
+  "Bootstrap",
+  "Javascript",
+  "React Js",
+  "Redux-Toolkit, React-Redux",
+  "Node Js",
+  "Express Js",
+  "MongoDB",
+  "MVC (Model View Controller) Architecture",
+  "Git",
+  "Github",
+];
+
 const SkillsPage = () => {
   return (
     <SkillsPageWrapper id="skills" className="bg-light">
@@ -17,66 +32,19 @@ const SkillsPage = () => {
               <li className="list-group-item bg-light py-3">
                 <p className="fw-bold mb-0">Summary of my skills &rarr;</p>
               </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">HTML5</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">CSS3</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Bootstrap</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Javascript</span>
-              </li>
-              {/* <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Typescript</span>
-              </li> */}
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">React</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Redux</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Data Structures and Algorithms</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Git</span>
-              </li>
-              <li className="list-group-item bg-light d-flex gap-4 py-3">
-                <span className="text-yellow">
-                  <FaCircle />
-                </span>
-                <span className="fw-bold">Github</span>
-              </li>
+              {skillsList.map((skill) => {
+                return (
+                  <li
+                    className="list-group-item bg-light d-flex gap-4 py-3"
+                    key={skill}
+                  >
+                    <span className="text-yellow">
+                      <FaCircle />
+                    </span>
+                    <span className="fw-bold">{skill}</span>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>
