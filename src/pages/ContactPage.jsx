@@ -6,7 +6,7 @@ import { FaCircle } from "react-icons/fa";
 const ContactPage = () => {
   return (
     <React.Fragment>
-      <ContactPageWrapper id="contact" className="bg-light">
+      <ContactPageWrapper id="contact" className="">
         <div className="container">
           <p className="text-center mb-5">
             <span className="bg-yellow fw-bold d-inline-block px-3 py-1">

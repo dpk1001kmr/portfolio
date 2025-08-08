@@ -15,7 +15,7 @@ const navItems = [
   "experience",
   "education",
   "skills",
-  "projects",
+  // "projects",
   "contact",
 ];
 
