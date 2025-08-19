@@ -21,7 +21,7 @@ const App = () => {
       <ExperiencePage />
       <EducationPage />
       <SkillsPage />
-      {/* <ProjectsPage /> */}
+      <ProjectsPage />
       {/* <TestimonialsPage /> */}
       <ContactPage />
     </React.Fragment>
