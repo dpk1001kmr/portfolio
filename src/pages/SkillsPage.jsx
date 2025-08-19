@@ -7,7 +7,7 @@ const skillsList = [
   "CSS3",
   "Bootstrap",
   "Javascript",
-  // "React Js",
+  "React Js",
   // "Redux Js",
   "Node Js",
   "Express Js",
