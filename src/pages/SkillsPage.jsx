@@ -12,6 +12,7 @@ const skillsList = [
   "Node Js",
   "Express Js",
   "MongoDB",
+  "Redis",
   "REST APIs Development",
   "MVC Architecture",
   "Data Structures and Algorithms",
