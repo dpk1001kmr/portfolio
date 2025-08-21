@@ -23,6 +23,39 @@ const ProjectsPage = () => {
                 </span>
                 <div>
                   <p className="fw-bold mb-1">
+                    Notehub (A simple note taking app)
+                  </p>
+                  <p className="fst-italic text-secondary">
+                    NoteHub is a simple and efficient note-taking application
+                    built with Node.js, Express, and MongoDB. It provides
+                    backend API for user authentication with features like
+                    registration, login, logout, and profile management. Users
+                    can create, view, update, and delete notes, as well as
+                    retrieve all their notes or a single note easily. Designed
+                    for simplicity and speed, NoteHub offers a lightweight
+                    backend for managing personal notes.
+                  </p>
+                  <p className="mb-1">
+                    <span className="fw-bold">Technologies used &rarr; </span>
+                    <span>Node Js, Express Js, MongoDB</span>
+                  </p>
+                  <p className="mb-1 text-secondary">
+                    <a
+                      href="https://notehub-vr3x.onrender.com/api-docs/"
+                      target="_blank"
+                      className="badge bg-yellow text-dark text-decoration-none"
+                    >
+                      Visit the project here
+                    </a>
+                  </p>
+                </div>
+              </li>
+              <li className="list-group-item d-flex gap-4 py-3">
+                <span className="projects-icon-container text-yellow">
+                  <GrProjects />
+                </span>
+                <div>
+                  <p className="fw-bold mb-1">
                     Landing Page Creator Tool (Form Builder Tool)
                   </p>
                   <p className="fst-italic text-secondary">
