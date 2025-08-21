@@ -23,7 +23,7 @@ const ProjectsPage = () => {
                 </span>
                 <div>
                   <p className="fw-bold mb-1">
-                    Notehub (A simple note taking app)
+                    Notehub (Backend api for simple note taking app)
                   </p>
                   <p className="fst-italic text-secondary">
                     NoteHub is a simple and efficient note-taking application
