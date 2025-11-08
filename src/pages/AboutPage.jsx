@@ -17,7 +17,7 @@ const AboutPage = () => {
                 Hi, I'm <span className="fw-bold">Deepak Kumar</span>
               </h1>
               <p className="text-center fs-5 lh-lg">
-                I am a dedicated web developer with a deep passion for creating
+                I am a dedicated software developer with a deep passion for creating
                 intuitive and engaging web applications. My love for computer
                 science and technology fuels my drive to stay at the forefront
                 of innovation, constantly learning and implementing cutting-edge
