@@ -16,7 +16,7 @@ const HeroPage = () => {
               alt="hero-img"
             />
             <h1 className="fw-bold text-uppercase mb-4">
-              Hello! I'm &mdash; Deepak Kumar, Web Developer.
+              Hello! I'm &mdash; Deepak Kumar, Software Developer.
             </h1>
             <Link
               to="about"
