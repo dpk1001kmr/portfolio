@@ -8,7 +8,7 @@ const skillsList = [
   "Bootstrap",
   "Javascript",
   "React Js",
-  // "Redux Js",
+  "Redux Js",
   "Node Js",
   "Express Js",
   "MongoDB",
@@ -18,6 +18,8 @@ const skillsList = [
   "Data Structures and Algorithms",
   "Git",
   "Github",
+  "Authentication and Authorization",
+  "AWS",
 ];
 
 const SkillsPage = () => {
